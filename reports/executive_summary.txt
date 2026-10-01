@@ -1,0 +1,52 @@
+
+FRAUD DETECTION & TRANSACTION RISK INTELLIGENCE PLATFORM
+==========================================================
+
+PROJECT OVERVIEW
+----------------
+The project develops a machine-learning system for identifying
+potentially fraudulent credit card transactions and prioritizing
+transactions for investigation.
+
+FINAL MODEL
+-----------
+Model: Tuned Gradient Boosting
+Calibration: Sigmoid
+Validation-selected threshold: 0.03
+
+FINAL TEST PERFORMANCE
+----------------------
+ROC-AUC: 0.8912
+PR-AUC: 0.7265
+Precision: 0.8727
+Recall: 0.6486
+F1: 0.7442
+Brier Score: 0.0011
+Log Loss: 0.0065
+
+DATASET
+-------
+Total transactions: 284,807
+Actual fraud transactions: 492
+Overall fraud rate: 0.1727%
+
+RISK SEGMENTATION
+-----------------
+High + Critical transactions: 397
+Critical transactions: 66
+
+INVESTIGATION PRIORITIZATION
+----------------------------
+Fraud captured in top 100 investigations:
+6.71%
+
+BUSINESS ANALYSIS
+-----------------
+Hypothetical net business value:
+$110,725.00
+
+NOTE
+----
+Business values are based on hypothetical assumptions and are
+intended for portfolio demonstration rather than real-world
+financial estimation.

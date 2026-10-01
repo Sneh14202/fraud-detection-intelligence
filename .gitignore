@@ -1,0 +1,26 @@
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Jupyter
+.jupyter/
+
+# Data
+data/raw/*
+data/processed/*
+
+# Model files
+models/*.joblib
+models/*.pkl
+
+# Generated outputs
+outputs/*
+reports/figures/*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
